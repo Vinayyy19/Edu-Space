@@ -1,0 +1,91 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Serif%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" />
+
+  <title>EduSpace</title>
+  <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+
+<body>
+  <div class="relative flex min-h-screen flex-col bg-[#F9FAFA] group/design-root overflow-x-hidden"
+    style='font-family: "Noto Serif", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+      <header
+        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#EEEFF2] px-6 py-4 sm:px-10">
+        <div class="flex items-center gap-4 text-[#1C1D22]">
+          <div class="size-4">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z"
+                fill="currentColor"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#1C1D22] text-lg font-bold leading-tight tracking-[-0.015em]">EduSpace</h2>
+        </div>
+        <div class="flex flex-1 justify-end gap-4 sm:gap-8">
+          <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+            style='background-image: url("https://cdn.usegalileo.ai/replicate/44054395-3f26-4fc6-b930-e2ca89e11e0c.png");'>
+          </div>
+        </div>
+      </header>
+
+      <div class="px-5 sm:px-8 lg:px-40 flex flex-1 justify-center py-8">
+        <div class="layout-content-container flex flex-col w-full max-w-[960px] py-5 sm:py-8">
+          <!-- Hero Image Section -->
+          <div
+            class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden rounded-lg min-h-[250px] sm:min-h-[300px] bg-[#F9FAFA]"
+            style='background-image: url("https://cdn.usegalileo.ai/sdxl10/778f07a4-94a0-4f6a-bc02-21c2e1a06c1b.png");'>
+          </div>
+
+          <h1
+            class="text-[#1C1D22] text-2xl sm:text-3xl font-bold leading-tight tracking-[-0.015em] px-4 text-center pt-5 sm:pt-8">
+            Welcome to EduSpace</h1>
+          <p class="text-[#1C1D22] text-base sm:text-lg font-normal leading-normal pb-5 pt-2 px-4 text-center">We're
+            excited to have you. Log in to continue.</p>
+
+          <!-- Email Input Field -->
+          <div class="flex w-full max-w-[480px] mx-auto mb-5">
+            <label class="flex flex-col w-full">
+              <p class="text-[#1C1D22] text-sm font-medium leading-normal pb-2">Email</p>
+              <input placeholder="Enter your email"
+                class="form-input flex w-full rounded-xl text-[#1C1D22] focus:outline-0 focus:ring-0 border border-[#D5D6DD] bg-[#FFFFFF] focus:border-[#D5D6DD] h-12 placeholder:text-[#3C3F4A] p-3 text-sm sm:text-base font-normal leading-normal"
+                value="" />
+            </label>
+          </div>
+
+          <!-- Password Input Field -->
+          <div class="flex w-full max-w-[480px] mx-auto mb-5">
+            <label class="flex flex-col w-full">
+              <p class="text-[#1C1D22] text-sm font-medium leading-normal pb-2">Password</p>
+              <input placeholder="Enter your password"
+                class="form-input flex w-full rounded-xl text-[#1C1D22] focus:outline-0 focus:ring-0 border border-[#D5D6DD] bg-[#FFFFFF] focus:border-[#D5D6DD] h-12 placeholder:text-[#3C3F4A] p-3 text-sm sm:text-base font-normal leading-normal"
+                value="" />
+            </label>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex justify-center gap-3 mb-6">
+            <button
+              class="flex items-center justify-center w-full sm:w-auto min-w-[84px] h-12 px-4 bg-[#607AFB] text-[#F9FAFA] text-sm font-bold rounded-xl">
+              Log in
+            </button>
+            <button
+              class="flex items-center justify-center w-full sm:w-auto min-w-[84px] h-12 px-4 bg-[#EEEFF2] text-[#1C1D22] text-sm font-bold rounded-xl">
+              Sign up
+            </button>
+          </div>
+
+          <!-- Forgot Password Link -->
+          <p class="text-[#3C3F4A] text-sm font-normal leading-normal text-center pb-3 pt-1 px-4 underline">Forgot your
+            password?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
