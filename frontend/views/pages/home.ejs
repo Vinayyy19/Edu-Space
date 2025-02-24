@@ -1,0 +1,14 @@
+<% layout('../layout/boilerplate') -%>
+<!-- <div class="hero-container"></div> -->
+
+<div class="hero-container">
+    <% courses.forEach(course => { %>
+        <div class="course-container">
+            <img src="<%= course.img %>" alt="<%= course.courseTitle %>" class="img">
+            <h4 class="course-title"><%= course.courseTitle %></h4>
+            <button class="enroll-btn" aria-value="<%= course.id %>">
+                <a href="/enroll/<%= course.id %>" target="_blank">Enroll now</a>
+            </button>
+        </div>
+    <% }); %>
+</div>

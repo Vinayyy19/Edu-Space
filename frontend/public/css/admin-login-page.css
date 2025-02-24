@@ -1,11 +1,11 @@
-* {
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: poppins;
-}
-a{
+} */
+/* a{
     color: white;
 }
 body {
@@ -22,15 +22,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
-.logo {
+/* .logo {
     color: white;
 }
 
 .logo i {
     margin-left: 10px;
-}
+} */
 
 
 .login-btn {
@@ -113,13 +113,13 @@ textarea:focus {
     border-radius: 5px;
     color: #fff;
     font-size: 16px;
-    transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
     cursor: pointer;
 }
 button:hover{
   background-color: rgb(116, 5, 195);
 }
-.footer {
+/* .footer {
     background-color: indigo;
     color: #fff;
     padding: 40px 0;
@@ -195,8 +195,6 @@ button:hover{
         font-size: 0.8rem;
         margin: 5px;
         padding: 5px 10px;
-
-
     }
 
     .nav-container {
@@ -220,4 +218,4 @@ button:hover{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */

@@ -1,12 +1,12 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
     text-decoration: none;
     list-style-type: none;
-}
-a{
+} */
+/* a{
     color: white;
 }
 .nav-container {
@@ -28,7 +28,7 @@ a{
 
 .logo i {
     margin-left: 10px;
-}
+} */
 .enroll-container{
     background-color: rgba(206, 204, 204, 0.271);
     height: 100vh;
@@ -81,7 +81,7 @@ video{
     scrollbar-color:indigo #fff;
     scroll-behavior: smooth;
 }
-.footer {
+/* .footer {
     background-color: indigo;
     color: #fff;
     padding: 40px 0;
@@ -162,9 +162,9 @@ video{
     .course-details{
         display: none;
     }
-}
+} */
 
-.loader-container {
+/* .loader-container {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -174,4 +174,4 @@ video{
     background-size: 150px;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
