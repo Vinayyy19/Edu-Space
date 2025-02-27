@@ -1,6 +1,13 @@
 # Edu-Space  
+## One-stop solution for every educational content 
 
-## One-stop solution for every educational content  
+## Screenshots
+![image](https://github.com/user-attachments/assets/356539d9-5e0f-4ba9-8e09-632955678fbc)
+---
+![image](https://github.com/user-attachments/assets/6a8612ce-880a-400e-8bc2-130bd1943d67)
+---
+![image](https://github.com/user-attachments/assets/dc08cba1-025e-49f2-bbb3-13d07a92691e)
+---
 
 Follow these steps to set up and run the project.  
 
